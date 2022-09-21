@@ -1,0 +1,19 @@
+##problem 1
+year = input("input a year: ")
+def leapyear():
+  if int(year) % 4 == 0:
+    return True
+  else:
+    return False
+leapyear()
+
+##problem 2
+itlist = [0, 1]
+def recursiveFibonacci():
+  pass
+def iterativeFibonacci(list):
+  for i in list:
+    while i>0:
+      list.append(list[i]+list[i+1])
+
+iterativeFibonacci(itlist)
