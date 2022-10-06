@@ -1,0 +1,66 @@
+#1
+userinput = str(input("enter a phrase: "))
+def frequency(userinput):
+  userinput = userinput.split()
+  emptystr = []
+  for i in userinput:
+    if i not in emptystr:
+      emptystr.append(i)
+  for i in range(len(userinput)):
+    print(emptystr[i] + ": " + str.count(emptystr[i]))
+frequency(userinput)
+
+#2
+class matrixoperations:
+  def addmatrix():
+    matrix1 = []
+    matrix2 = []
+    matrixsum = []
+    if int(matrix1.shape()) == int(matrix2.shape()):
+      matrixsum = matrix1 + matrix2
+    print(matrixsum)
+  def multmatrix():
+    matrix1 = []
+    matrix2 = []
+    matrixprod = []
+    for row in range(rows): 
+        for col in range(cols):
+            for elt in range(len(matrix1)):
+              matrixprod[row, col] += matrix1[row, elt] * matrix2[elt, col]
+    print(matrixprod)
+
+
+#3
+A fast algorithm that finds the integer in A that is repeated is one that takes each integer and compares it to the rest of the list.
+
+#4
+def overallsum():
+  for i in range(matrix[i]):
+    sums = matrix[i] + matrix[i+1]
+    for j in range(matrix[i][j]):
+      sums2 = matrix[j] + matrix[j+1]
+  bigsum = sums + sums2
+  
+  #5
+def subset():
+  for i in set:
+    if set[i] == set[i+1]:
+      return set[i]
+    else:
+      subset()
+      
+#6
+In an algorithm that imitates the towers of Hanoi puzzle, the program would assess if there was a peg that needs to be moved. If there does, then you would call the method again to move it.
+
+#7
+def reversestr(s):
+    if len(s) == 0:
+        return s
+    else:
+        return reversestr(s[1:]) + s[0]
+        
+ #8
+#In this algorithm, you would test each bottle one at a time. If a bottle passes the test, then it is put in one list. If it doesn't pass, then it is put in anothter list. The bottle that doesn't pass will be revealed.
+
+#9 
+this algorithm would split the list into half. It would find the minimum and maximum of the two groups. Using those four numbers, the method would compare them and find the minimum and maximum between the four.
